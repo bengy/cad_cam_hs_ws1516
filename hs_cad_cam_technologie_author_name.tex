@@ -1,0 +1,86 @@
+\documentclass[a4paper, 12pt]{hs_cad_cam_technologie}
+% Special characters
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% Place floats where we want them.
+\usepackage{float}
+% For the pictures.
+\usepackage{graphicx}
+% Remove page header and foot (and page number with it).j
+\pagestyle{empty}
+\newcommand{\Kursname}{Hauptseminar CAD/CAM-Technologie:\\ ``Anforderungsspezifikationen in der Entwicklung technischer Produkte''}
+
+% Change to your stuff.
+\newcommand{\Beitragstitel}{BEISPIEL}
+\newcommand{\Autor}{Benjamin Rau}
+\newcommand{\Keyword}{3-5 Schlüsselwörter}
+
+% Metadata for the pdf.
+\usepackage[pdftex]{hyperref}
+\hypersetup
+{
+pdftitle = {\Kursname - \Beitragstitel},
+pdfsubject = {\Kursname - \Beitragstitel},
+pdfauthor = {\Autor},
+}
+
+\begin{document}
+
+% Add the title
+\title{\Kursname}
+\subtitle{\Beitragstitel}
+\author{\Autor}
+\keywords{\Keyword}
+\maketitle
+
+
+\begin{abstract}
+	Optionale Kurzfassung.
+\end{abstract}
+
+\section{Einleitung}
+10-14 Zeilen Einleitung.
+
+\section{Beispiele}
+Dies ist ein Absatz. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+12pt Abstand zu letztem Absatz. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\begin{table}[H]
+  \caption{Beispiel einer Tabelle}
+  \label{tab:tablereference}
+  \centerline{
+    \begin{tabular}{| c | c |}
+      \hline
+      & \\ \hline
+      & \\ \hline
+    \end{tabular}
+  }
+\end{table}
+Dummy Text um Abstand zu prüfen. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\begin{equation}
+  \label{eq:1}
+  \sum_{i=0}^{\infty} a_i x^i
+\end{equation}
+Beispiel eines Zitates \cite{test}\cite{test2}.\\
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.
+\begin{figure}[H]
+  \centering{
+    \includegraphics[width=0.5\textwidth]{unilogo}
+    \caption{Das Logo der Universität Stuttgart}
+    \label{fig:figureref}
+  }
+\end{figure}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Dummy Text um Abstand zu prüfen.
+\section{Schlussfolgerung und Ausblick}
+10-14 Zeilen Schlussfolgerung und Ausblick.
+
+\bibliography{bibliography}
+\bibliographystyle{plain}
+\end{document}
